@@ -42,24 +42,28 @@
     </header>
     <main class="chats">
       <ul class="chats_list">
-        <li class="chats_chat chat">
+        <div class="chats_chat chat">
           <a href="chat.html">
-            <div class="chat_column">
-              <img src="image/download.jpg" class="chat_avatar g-avatar" />
-              <div class="chat_content">
-                <span class="chat_username">
-                  Lynn
-                </span>
-                <span class="chat_preview">
-                  Going home!
+            <div class="chats_chat friend friend--lg">
+              <div class="friend_column">
+                <img src="image/download.jpg" class="m-avatar friend_avatar" />
+                <div class="friend_content">
+                  <span class="friend_name">
+                    lee
+                  </span>
+                  <span class="friend_bottom-text">
+                    Going home!
+                  </span>
+                </div>
+              </div>
+              <div class="friend_column">
+                <span class="chat_timestamp">
+                  March 7
                 </span>
               </div>
             </div>
-            <div class="chat_column">
-              <span class="chat_timestamp">Yesterday</span>
-            </div>
           </a>
-        </li>
+        </div>
       </ul>
     </main>
     <nav class="nav">
@@ -72,6 +76,7 @@
 
         <li class="nav_list-item">
           <a href="index.html" class="nav_list-link">
+            <div class="nav_badge">8</div>
             <i class="fas fa-comment"></i>
           </a>
         </li>
@@ -89,5 +94,8 @@
         </li>
       </ul>
     </nav>
+    <div class="bigScreen">
+      <span class="bigScreen_text">Please your Screen small</span>
+    </div>
   </body>
 </html>
